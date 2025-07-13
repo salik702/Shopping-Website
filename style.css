@@ -326,7 +326,7 @@ del {
   content: 'Sale';
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 20px; 
   padding: 0.2rem 1.3rem;
   color: var(--white-clr);
   font-weight: 400;

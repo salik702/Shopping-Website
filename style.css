@@ -347,7 +347,7 @@ del {
   text-align: center;
   background-image: url('images/sale-image.jpg');
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -374,3 +374,5 @@ del {
   color: #6e6e6e;
   line-height: 3.5rem;
 }
+
+

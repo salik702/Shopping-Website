@@ -59,6 +59,11 @@ img {
   flex-wrap: wrap;
 }
 
+.secondary-bg {
+  background: var(--secondary-clr);
+  padding-block: 2.2rem;
+}
+
 /* navbar styling  */
 
 header {
@@ -326,7 +331,7 @@ del {
   content: 'Sale';
   position: absolute;
   top: 20px;
-  left: 20px; 
+  left: 20px;
   padding: 0.2rem 1.3rem;
   color: var(--white-clr);
   font-weight: 400;
@@ -375,4 +380,31 @@ del {
   line-height: 3.5rem;
 }
 
+
+.box {
+  flex: 1;
+  text-align: center;
+  margin-block: 1rem;
+  flex-basis: 200px;
+}
+
+.box .fa-solid {
+  font-size: 1.5rem;
+  color: var(--primary-clr);
+
+}
+
+h5 a {
+  font-size: 1.1rem;
+  color: var(--light-black-clr);
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.des {
+  color: #6e6e6e;
+  font-size: .9rem;
+  font-weight: 400;
+
+}
 

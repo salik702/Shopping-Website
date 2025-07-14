@@ -539,20 +539,55 @@ form h3 {
 
 /* Footer Here  */
 
+.footer-container {
+  padding-bottom: 3rem;
+}
+
 
 .footer-list {
   flex: 1;
   padding-block: 1rem;
+  flex-basis: 200px;
 
 }
 
-.footer-link{
+.footer-link {
   font-size: .9rem;
   text-transform: capitalize;
   font-weight: 500;
-  color : var(--light-black-clr);
-  line-height : 2.25rem;
-  
+  color: var(--light-black-clr);
+  line-height: 2.25rem;
+
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+
+}
+
+.detail {
+  font-size: .9rem;
+  line-height: 1.75rem;
+  color: #6e6e6e;
+
+}
 
 
+.footer-bottom {
+  padding-block: .85rem;
+  text-align: center;
+  color: #6e6e6e;
+  border-top: .065rem solid #ebebeb;
+  font-size: .9rem;
+
+}
+
+/* make responsive carts*/
+
+
+@media (max-width: 576px) {
+  .card {
+    flex: 1 1 45%;
+    max-width: 300px;
+  }
 }

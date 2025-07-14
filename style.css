@@ -417,6 +417,7 @@ h5 a {
 .blog-box {
   flex: 1;
   position: relative;
+  flex-basis: 300px;
 
 
 }
@@ -489,5 +490,69 @@ h5 a {
   left: 50%;
   opacity: 1;
   visibility: visible;
+
+}
+
+form {
+  gap: 3rem;
+
+}
+
+form h3 {
+  font-size: 1.4rem;
+
+
+}
+
+.input-container {
+  flex: 1;
+  align-items: stretch;
+
+
+}
+
+#email {
+  border: none;
+  flex: 1;
+  font-size: 1rem;
+  padding-left: 1.1rem;
+
+}
+
+#email:focus {
+  outline: none;
+
+}
+
+.social-icons {
+  gap: 1.2rem;
+  justify-content: flex-end;
+
+
+}
+
+.media {
+  font-size: 1.2rem;
+  color: var(--light-black-clr);
+
+}
+
+/* Footer Here  */
+
+
+.footer-list {
+  flex: 1;
+  padding-block: 1rem;
+
+}
+
+.footer-link{
+  font-size: .9rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color : var(--light-black-clr);
+  line-height : 2.25rem;
+  
+
 
 }

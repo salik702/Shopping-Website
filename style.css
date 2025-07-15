@@ -588,7 +588,6 @@ form h3 {
 
 /* Dark Mode Styles */
 
-/* === Dark Mode Variables and Overrides === */
 
 body.dark-mode {
   --white-clr: #121212;
@@ -602,7 +601,7 @@ body.dark-mode {
   color: var(--black-clr);
 }
 
-/* Dark mode element color overrides */
+
 body.dark-mode header {
   background: var(--secondary-clr);
   box-shadow: 0 5px 14px rgba(255 255 255 / 0.1);
@@ -665,6 +664,7 @@ body.dark-mode .card {
   color: var(--black-clr);
   transition: box-shadow 0.3s ease;
 }
+
 body.dark-mode .card:hover {
   box-shadow: 0px 5px 19px 1px rgba(246, 62, 62, 0.65);
 }
@@ -705,7 +705,6 @@ body.dark-mode .navlist .link-active {
   color: var(--black-clr);
 }
 
-/* === Dark Mode Toggle Icon Button Styles === */
 
 .dark-mode-btn {
   cursor: pointer;

@@ -21,6 +21,8 @@ html {
   --tag-clr: #7cc576;
 }
 
+
+
 /* Basic styling */
 li {
   list-style-type: none;
@@ -580,6 +582,154 @@ form h3 {
   border-top: .065rem solid #ebebeb;
   font-size: .9rem;
 
+}
+
+
+
+/* Dark Mode Styles */
+
+/* === Dark Mode Variables and Overrides === */
+
+body.dark-mode {
+  --white-clr: #121212;
+  --black-clr: #fff;
+  --light-black-clr: #ccc;
+  --primary-clr: #f63e3e;
+  --secondary-clr: #222;
+  --tag-clr: #90ee90;
+
+  background-color: var(--white-clr);
+  color: var(--black-clr);
+}
+
+/* Dark mode element color overrides */
+body.dark-mode header {
+  background: var(--secondary-clr);
+  box-shadow: 0 5px 14px rgba(255 255 255 / 0.1);
+}
+
+body.dark-mode .logo,
+body.dark-mode .link,
+body.dark-mode .nav-icons .icon,
+body.dark-mode .footer-link,
+body.dark-mode .des,
+body.dark-mode .detail,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p {
+  color: var(--black-clr);
+}
+
+body.dark-mode a:hover {
+  color: var(--primary-clr);
+}
+
+body.dark-mode .hamburger {
+  color: var(--primary-clr);
+}
+
+body.dark-mode .secondary-bg {
+  background: var(--secondary-clr);
+  color: var(--black-clr);
+}
+
+body.dark-mode .box .fa-solid {
+  color: var(--primary-clr);
+}
+
+body.dark-mode .sale-container {
+  background-color: #333;
+  background-image: none;
+  color: var(--black-clr);
+}
+
+body.dark-mode button,
+body.dark-mode .add-to-cart {
+  background-color: var(--primary-clr);
+  color: var(--white-clr);
+}
+
+body.dark-mode button:hover,
+body.dark-mode .add-to-cart:hover {
+  background-color: var(--light-black-clr);
+  color: var(--white-clr);
+}
+
+body.dark-mode .card {
+  background-color: #222;
+  border-right: 1px solid #444;
+  color: var(--black-clr);
+  transition: box-shadow 0.3s ease;
+}
+body.dark-mode .card:hover {
+  box-shadow: 0px 5px 19px 1px rgba(246, 62, 62, 0.65);
+}
+
+body.dark-mode .hero {
+  background-color: #1a1a1a;
+  background-blend-mode: multiply;
+  color: var(--black-clr);
+}
+
+body.dark-mode footer {
+  background-color: var(--secondary-clr);
+  color: var(--black-clr);
+  border-top: 0.065rem solid #555;
+}
+
+body.dark-mode .footer-link,
+body.dark-mode .detail {
+  color: var(--black-clr);
+}
+
+body.dark-mode #email {
+  background-color: #333;
+  color: var(--white-clr);
+  border: 1px solid #555;
+}
+
+body.dark-mode #email::placeholder {
+  color: #aaa;
+}
+
+body.dark-mode .navlist {
+  background-color: var(--secondary-clr);
+}
+
+body.dark-mode .navlist .link,
+body.dark-mode .navlist .link-active {
+  color: var(--black-clr);
+}
+
+/* === Dark Mode Toggle Icon Button Styles === */
+
+.dark-mode-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  color: var(--primary-clr);
+  border-radius: 50%;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode-btn:hover {
+  background: var(--primary-clr);
+  color: var(--white-clr);
+}
+
+#dark-mode-icon {
+  pointer-events: none;
+  transition: color 0.2s;
 }
 
 
